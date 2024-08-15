@@ -1,0 +1,53 @@
+
+
+.home-page {
+  position: relative;
+  height: 100vh;
+  width: 100vw; 
+  background: url('../components/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; 
+}
+
+.navbar {
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1000; 
+}
+
+.nav-link {
+  color: #fff; 
+  text-decoration: none;
+  font-size: 24px; 
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.welcome-message {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 8px; 
+  z-index: 100; 
+}
+
+.welcome-message h1 {
+  font-size: 4rem; 
+  margin: 0;
+}
